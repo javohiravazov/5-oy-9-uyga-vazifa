@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Score Game</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="user">
+        <div class="scores">
+          <h3 class="name1">name: Javohirbek</h3>
+          <h2>score: <span class="score1">0</span></h2>
+          <div
+            style="
+              height: 300px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            "
+          >
+            <h1 class="currentScore1">0</h1>
+            <button class="btn btn1">Press</button>
+          </div>
+        </div>
+      </div>
+      <div class="user">
+        <div class="scores">
+          <h3 class="name2">name: Javlonbek</h3>
+          <h2>score: <span class="score2">0</span></h2>
+          <div
+            style="
+              height: 300px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            "
+          >
+            <h1 class="currentScore2">0</h1>
+            <button class="btn btn2">Press</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="winner-modal hidden">
+      <div class="modal-content">
+        <span class="winner-message"></span>
+        <button class="close-btn">OK</button>
+      </div>
+    </div>
+    <div class="reset-container">
+      <button class="reset-btn">Очистить игру</button>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
